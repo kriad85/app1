@@ -1,8 +1,8 @@
 [
 	{
-		"myapp2":{
+		"myapp3":{
 			"deployment_name":"@deployment_name@",
-			"app_name": "myapp2",
+			"app_name": "myapp3",
 			"replica_number": "@replica_number@",
 			"image_name": "@image_name@",
 			"build_number": "@build_number@",
