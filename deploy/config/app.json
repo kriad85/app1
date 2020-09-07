@@ -8,7 +8,7 @@
 			"build_number": "1",
                         "container_port": "8080",
                         "service_name": "myappxeservice",
-                        "service_type": "LoadBalalncer",
+                        "service_type": "LoadBalancer",
                         "service_port": "8080",
                         "service_protocol": "TCP"
 		}
