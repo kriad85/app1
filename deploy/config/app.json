@@ -1,16 +1,16 @@
 [
 	{
 		"myapp":{
-			"deployment_name":"@deployment_name@",
+			"deployment_name":"myapp-deployment",
 			"app_name": "myapp",
-			"replica_number": "@replica_number@",
+			"replica_number": "1",
 			"image_name": "@image_name@",
-			"build_number": "@build_number@",
-                        "container_port": "@container_port@",
-                        "service_name": "@service_name@",
-                        "service_type": "@service_type@",
-                        "service_port": "@service_port@",
-                        "service_protocol": "@service_protocol@"
+			"build_number": "1",
+                        "container_port": "8080$",
+                        "service_name": "myappxeservice",
+                        "service_type": "$",
+                        "service_port": "8080$",
+                        "service_protocol": "TCP"
 		}
 	}
 ]
