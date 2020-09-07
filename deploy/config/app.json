@@ -7,7 +7,7 @@
 			"image_name": "de.icr.io/test-ns-kri",
 			"build_number": "1",
                         "container_port": "8080",
-                        "service_name": "myappxeservice",
+                        "service_name": "myapp-service",
                         "service_type": "LoadBalancer",
                         "service_port": "8080",
                         "service_protocol": "TCP"
