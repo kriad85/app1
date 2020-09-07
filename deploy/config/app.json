@@ -4,7 +4,7 @@
 			"deployment_name":"myapp-deployment",
 			"app_name": "myapp",
 			"replica_number": "1",
-			"image_name": "de.icr.io/test-ns-kri/myapp",
+			"image_name": "de.icr.io/test-ns-kri",
 			"build_number": "1",
                         "container_port": "8080",
                         "service_name": "myappxeservice",
