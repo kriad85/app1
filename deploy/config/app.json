@@ -1,13 +1,13 @@
 [
 	{
-		"myapp":{
-			"deployment_name":"myapp-deployment",
-			"app_name": "myapp",
+		"app1":{
+			"deployment_name":"app1-deployment",
+			"app_name": "app1",
 			"replica_number": "1",
-			"image_name": "de.icr.io/test-ns-kri/myapp",
+			"image_name": "de.icr.io/test-ns-kri/app1",
 			"build_number": "1",
                         "container_port": "8080",
-                        "service_name": "myapp-service",
+                        "service_name": "app1-service",
                         "service_type": "LoadBalancer",
                         "service_port": "8080",
                         "service_protocol": "TCP"
